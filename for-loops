@@ -1,0 +1,8 @@
+for i in range(1, 11):
+    print(i)
+
+fruits = ["Mango", "Banana", "Apple"]
+for fruit in fruits:
+    print(fruit)
+    for ch in fruit:
+        print(ch)
