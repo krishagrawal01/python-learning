@@ -16,20 +16,22 @@
 # except KeyError:
 # except TypeError:
 # except FileNotFoundError:
+def squareNum(num):
+     try:
+          return int(num) * int(num)
 
-try: 
-    num = int(input("Enter a number: "))
+     except ValueError:
+          return "Please enter a number."
 
-    print("Square of number is:", num * num)
+     # except Exception as e:
+     #     print("Error:", e)
 
-except ValueError:
-    print("Please enter a number.")
+     # else:
+     #      print("You entered:", num)    #runs only if error happens
 
-# except Exception as e:
-#     print("Error:", e)
+     finally:
+          print("Runs even after function returns a value")
 
-else:
-    print("You entered:", num)
+num = input("Enter a number: ")
 
-finally:
-    print("Program finished")
+print(squareNum(num))
