@@ -30,9 +30,6 @@
 # Create a virtual environment (Run ONLY ONCE per project)
 # python -m venv .venv
 
-# OR
-# python -m venv venv
-
 # Activate virtual environment (PowerShell)
 # .venv\Scripts\activate
 # OR
@@ -145,42 +142,4 @@
 # .venv\Scripts\activate
 
 # If you cloned someone else's project:
-# pip install -r requirements.txt
-
-
-# =========================
-# MOST IMPORTANT COMMANDS
-# =========================
-
-# python -m venv .venv
-# .venv\Scripts\activate
-# deactivate
-
-# pip install <package-name>
-# pip list
-# pip show <package-name>
-# pip freeze
-# pip freeze > requirements.txt
-# pip install -r requirements.txt
-
-# python --version
-# python -c "import sys; print(sys.executable)"
-# where.exe python
-
-# git status
-# git add .
-# git commit -m "message"
-# git push
-# git pull
-
-
-# =========================
-# NOTES
-# =========================
-
-# requirements.txt stores all project dependencies
-# Use:
-# pip freeze > requirements.txt
-
-# To recreate the same environment:
 # pip install -r requirements.txt
