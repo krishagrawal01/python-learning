@@ -18,3 +18,6 @@ from krish import quality, name
 
 quality()
 print(name)
+
+import numpy as np
+
